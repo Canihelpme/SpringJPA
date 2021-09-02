@@ -17,7 +17,7 @@ import java.util.Map;
 import static org.assertj.core.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class ApplicationContextSameBeanFindTest {
+class ApplicationContextSameBeanFindTest {
 
     AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(SameBeanConfig.class);
 
@@ -33,8 +33,11 @@ public class ApplicationContextSameBeanFindTest {
     @Test
     @DisplayName("타입으로 조회시 같은 타입 둘 이상 존재지, Bean의 이름 지정시 해결 가능.")
     void findBeanByName() {
-        MemberRepository memberRepository = ac.getBean("memberRepository", MemberRepository.class);
-        assertThat(memberRepository).isInstanceOf(MemberRepository.class);
+        MemberRepository memberRepository1 = ac.getBean("memberRepository1", MemberRepository.class);
+        assertThat(memberRepository1).isInstanceOf(MemberRepository.class);
+
+        MemberRepository memberRepository2 = ac.getBean("memberRepository2", MemberRepository.class);
+        assertThat(memberRepository2).isInstanceOf(MemberRepository.class);
     }
 
     @Test
