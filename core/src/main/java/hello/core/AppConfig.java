@@ -39,4 +39,5 @@ public class AppConfig {
 
     //Refactoring 통해 각 class만의 역할 드러내기.
     //Method 이름으로 역할을 Return type으로 구현클래스를 한눈에 알 수 있게 표현.
+    //Bean 등록, Method 이름이 곧 Bean 이름.
 }
