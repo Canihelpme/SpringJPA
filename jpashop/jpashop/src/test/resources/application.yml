@@ -1,17 +1,20 @@
 spring:
   datasource:
-    url: jdbc:h2:tcp://localhost/~/jpashop;
+    url: jdbc:h2:mem:test
     username: sa
     password:
     driver-class-name: org.h2.Driver
 
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: create-drop #자원 정리
     properties:
       hibernate:
         # show_sql: true
         format_sql: true
+
+#Memory에서 testcase
+#밑 부분만 있어도 mem test 가능.
 
 logging:
   level:

@@ -12,14 +12,14 @@ import java.util.List;
 public class Member {
 
     @Id @GeneratedValue
-    @Column(name = "member_id") //Pk를 원하는 것으로 설정하기 위해.
-    private Long id;
+    @Column(name = "member_id") //Set the column of PK
+    private Long id; //em.persis() 실행시 pk 값으로 저장
 
     private String name;
 
     @Embedded
     private Address address;
 
-    @OneToMany(mappedBy = "member") //Order의 member field에 의존. 연관관계 주종 설정.
+    @OneToMany(mappedBy = "member") //Order 의 member field 의존, 연관관계 주종 설정.
     private List<Order> orders = new ArrayList<>();
 }
