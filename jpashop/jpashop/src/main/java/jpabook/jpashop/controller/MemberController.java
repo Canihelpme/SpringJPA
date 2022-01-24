@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import javax.validation.Valid;
+import java.util.List;
 
 @Controller
 @RequiredArgsConstructor
@@ -39,4 +40,12 @@ public class MemberController {
         memberService.join(member);
         return "redirect:/";
     }
+
+    @GetMapping("/members")
+    public String list(Model model)  {
+        List<Member> members = memberService.findMembers(); //JPA 에서 JPQL 로 모든 member 호출, Entity 그대로 사용했음. 앞으로는 Form, DTO 사용할 것.
+        model.addAttribute("members", members);
+        return "members/memberList";
+    }
+
 }
