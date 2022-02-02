@@ -56,7 +56,6 @@ public class MemberApiController {
     /**
      * 회원 등록
      */
-
     @PostMapping("api/v1/members")
     public CreateMemberResponse saveMemberV1(@RequestBody @Valid Member member) {
         Long id = memberService.join(member); //join하면 바로 posting 됨 id 자동생성해주고ㅇㅇ
