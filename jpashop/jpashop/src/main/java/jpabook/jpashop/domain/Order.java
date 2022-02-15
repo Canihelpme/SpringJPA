@@ -39,6 +39,7 @@ public class Order {
     public void setMember(Member member) {
         this.member = member;
         member.getOrders().add(this); //member에 order추가
+        //member에서 getOrders를 통해 자신의 order 참조 후 이 order를 add 함.
     }
 
     public void addOrderItem(OrderItem orderItem){
