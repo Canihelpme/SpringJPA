@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="557f3471-978c-4fac-a9e4-1f83f5262759" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jpashop_main_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/InitDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/repository/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/jpashop/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="557f3471-978c-4fac-a9e4-1f83f5262759" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,6 +102,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CoreApplication" />
+      <item itemvalue="Spring Boot.HelloSpringApplication" />
+      <item itemvalue="Spring Boot.JpashopApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.JpashopApplication" />
@@ -147,6 +144,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
