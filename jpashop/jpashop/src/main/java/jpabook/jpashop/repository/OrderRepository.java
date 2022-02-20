@@ -2,6 +2,7 @@ package jpabook.jpashop.repository;
 
 import jpabook.jpashop.domain.Member;
 import jpabook.jpashop.domain.Order;
+import jpabook.jpashop.repository.order.simplequery.OrderSimpleQueryDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.StringUtils;
@@ -20,6 +21,11 @@ public class OrderRepository {
 
     public void save(Order order) {
         em.persist(order);
+    }
+
+    public List<Order> findAll() {
+        return em.createQuery("select o from Order o", Order.class)
+                .getResultList();
     }
 
     public Order findOne(Long id) {
@@ -110,4 +116,15 @@ public class OrderRepository {
 
     }
 
+    //성능 최적화를 위한 fetch join
+    public List<Order> findAllWithMemberDelivery() {
+        return em.createQuery(
+                "select o from Order o"+
+                        " join fetch o.member m"+
+                        " join fetch o.delivery d", Order.class
+        ).getResultList();
+
+        //order를 가져올때 member 까지 한번에 불러온다.
+        //대부분의 api는 이정도 성능으로 충분
+    }
 }

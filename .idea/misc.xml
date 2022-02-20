@@ -4,7 +4,10 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/core" />
     <file type="web" url="file://$PROJECT_DIR$/Hello-spring" />
-    <file type="web" url="file://$PROJECT_DIR$/jpashop/jpashop" />
+    <file type="web" url="file://$PROJECT_DIR$/jpashop" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
 </project>
