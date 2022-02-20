@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="557f3471-978c-4fac-a9e4-1f83f5262759" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jpashop_main_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/InitDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/repository/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/jpashop/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/api/OrderSimpleApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/jpashop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/jpashop/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/InitDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/InitDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/JpashopApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/JpashopApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/repository/OrderRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="259PfViCCnKt4w0N0DRUSc1ipxQ" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -72,17 +97,32 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.com.haulmont.jpb.tools" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="jpabook.jpashop.api" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="jpabook.jpashop" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.JpashopApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="core.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.core.CoreApplication" />
@@ -110,6 +150,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CoreApplication" />
+      <item itemvalue="Spring Boot.HelloSpringApplication" />
+      <item itemvalue="Spring Boot.JpashopApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.JpashopApplication" />
@@ -131,6 +176,9 @@
       <workItem from="1644936440664" duration="2419000" />
       <workItem from="1644942650164" duration="147000" />
       <workItem from="1644942812608" duration="1942000" />
+      <workItem from="1645365546266" duration="614000" />
+      <workItem from="1645366936675" duration="728000" />
+      <workItem from="1645367691570" duration="7455000" />
     </task>
     <servers />
   </component>
@@ -147,6 +195,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

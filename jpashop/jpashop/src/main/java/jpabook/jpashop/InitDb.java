@@ -18,6 +18,7 @@ public class InitDb {
     @PostConstruct //Spring이 올라오고나면 SpringBean이 dbInit1 호출
     public void init() {
         initService.dbInit1();
+        initService.dbInit2();
     }
 
     @Component
