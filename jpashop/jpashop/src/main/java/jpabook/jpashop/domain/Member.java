@@ -1,5 +1,6 @@
 package jpabook.jpashop.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,6 +9,7 @@ import javax.validation.constraints.NotEmpty;
 import java.util.ArrayList;
 import java.util.List;
 
+//@BatchSize 100 Order기준 ToOne관계에서는 맨 위에 적용
 @Entity
 @Getter @Setter
 public class Member {
@@ -22,6 +24,7 @@ public class Member {
     @Embedded
     private Address address;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "member") //Order 의 member field 의존, 연관관계 주종 설정.
     private List<Order> orders = new ArrayList<>();
 }

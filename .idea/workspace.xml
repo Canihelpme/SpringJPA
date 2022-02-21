@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="557f3471-978c-4fac-a9e4-1f83f5262759" name="Default Changelist" comment="" />
-=======
     <list default="true" id="557f3471-978c-4fac-a9e4-1f83f5262759" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/HelloController.java" beforeDir="false" />
     </list>
->>>>>>> 061b23fbdc6d3e89421498027fcb22c16814b877
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +53,12 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/repository/OrderRepository.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/Service/OrderService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/api/OrderApiController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">

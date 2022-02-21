@@ -127,4 +127,25 @@ public class OrderRepository {
         //order를 가져올때 member 까지 한번에 불러온다.
         //대부분의 api는 이정도 성능으로 충분
     }
+
+    public List<Order> findAllWithTeam() {
+        return em.createQuery(
+                //distinct option 넣어서 중복 제거
+                "select distinct o from Order o" +
+                        " join fetch o.member m" +
+                        " join fetch o.delivery d" +
+                        " join fetch o.orderItems oi" +
+                        " join fetch oi.item i", Order.class)
+                .getResultList();
+    }
+
+    public List<Order> findAllWithMemberDeliveryOffset(int offset, int limit) {
+        return em.createQuery(
+                "select o from Order o"+
+                        " join fetch o.member m"+
+                        " join fetch o.delivery d", Order.class)
+                .setFirstResult(offset)
+                .setMaxResults(limit)
+                .getResultList();
+    }
 }

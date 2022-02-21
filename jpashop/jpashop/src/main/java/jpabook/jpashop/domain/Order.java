@@ -23,6 +23,7 @@ public class Order {
     @JoinColumn(name= "member_id") //FK 이름 설정. Mapping을 이걸로 함.
     private Member member;
 
+    //@BatchSize(size = 1000) default 와 다른 갯수로 조회하고 싶을 때
     @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
     private List<OrderItem> orderItems = new ArrayList<>(); //Hybernate 오류 방지 위해.
 
