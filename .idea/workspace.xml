@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="557f3471-978c-4fac-a9e4-1f83f5262759" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/repository/order/query/OrderItemQueryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/repository/order/query/OrderQueryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/api/OrderApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/api/OrderApiController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +113,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="jpabook.jpashop.repository.order.query" />
       <recent name="jpabook.jpashop.api" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
