@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="557f3471-978c-4fac-a9e4-1f83f5262759" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/repository/order/query/OrderItemQueryDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/repository/order/query/OrderQueryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello-spring/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Hello-spring/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/core/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/api/OrderApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/jpashop/src/main/java/jpabook/jpashop/api/OrderApiController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
