@@ -69,7 +69,7 @@ public class OrderApiController {
     @GetMapping("/api/v3.1/orders")
     public List<OrderDto> ordersv3_page(
             @RequestParam(value="offset", defaultValue = "0") int offset,
-            @RequestParam(value="limit", defaultValue = "1") int limit)
+            @RequestParam(value="limit", defaultValue = "100") int limit)
             //Paging 위해서
     {
         List<Order> orders = orderRepository.findAllWithMemberDeliveryOffset(offset, limit);
@@ -80,10 +80,10 @@ public class OrderApiController {
         return result;
     }
 
-    @GetMapping("/api/v4/orders")
+    /**@GetMapping("/api/v4/orders")
     public List<OrderQueryDto> ordersv4() {
         return orderQueryRepository.findOrderQueryDto;
-    }
+    }**/
 
     @Getter //@Data도 가능
     static class OrderDto {

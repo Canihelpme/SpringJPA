@@ -18,6 +18,7 @@ public class ItemRepository {
             em.persist(item);
             //처음 저장했을 때 item id 없으므로 저장되기 전에 em 으로 저장
             //기등록된 Item 과 구분 가능.
+            //영속성에 먼저 저장
         }
         else {
             em.merge(item);
