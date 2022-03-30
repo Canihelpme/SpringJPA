@@ -1,13 +1,10 @@
-"Springboot"
+# **JPA SHOP(회원, 상품 및 주문관리 by JPA)**
 
-# **Jpa shop**
-
-Springboot와 JPA를 사용한 실습
+Springboot와 JPA를 사용한 실습 정리
 
 - Lib list
 
     -spring-boot-starter-web
-  
         -spring-web-mvc
         -spring-boot-starter-tomcat
 
