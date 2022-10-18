@@ -3,28 +3,22 @@
 Springboot와 JPA를 사용한 실습 정리
 
 - Lib list
+- spring-boot-starter-web
+    spring-web-mvc
+    spring-boot-starter-tomcat
 
-    -spring-boot-starter-web
-        -spring-web-mvc
-        -spring-boot-starter-tomcat
+- spring-boot-starter-thymeleaf
+    spring-boot-starter-data-jpa
+    spring-boot-starter-aop
 
-    -spring-boot-starter-thymeleaf
+- spring-boot-starter-jdbc
+    HikariCp
+    hibernate + JPA
     
-    -spring-boot-starter-data-jpa
+- spring-data-jpa
   
-        -spring-boot-starter-aop
-    
-    -spring-boot-starter-jdbc
-  
-        -HikariCp
-    
-    -hibernate + JPA
-  
-    -spring-data-jpa
-  
-    -spring-boot-starter
- 
-        -spring-boot
-            -spring-core
-        -spring-boot-starter-logging
-            -logback, slf4j
+-spring-boot-starter
+    spring-boot
+    spring-core
+    spring-boot-starter-logging
+    logback, slf4j
