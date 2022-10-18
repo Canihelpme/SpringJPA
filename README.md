@@ -17,7 +17,7 @@ Springboot와 JPA를 사용한 실습 정리
     
 - spring-data-jpa<br/>
   
--spring-boot-starter<br/>
+- spring-boot-starter<br/>
     spring-boot<br/>
     spring-core<br/>
     spring-boot-starter-logging<br/>
