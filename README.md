@@ -1,7 +1,7 @@
 # **JPA SHOP(회원, 상품 및 주문관리 by JPA)**
 
 Springboot와 JPA를 사용한 실습 정리
-https://github.com/Canihelpme/SpringJPA/blob/main/JPA_SHOP_UML.JPG
+![UML](https://github.com/Canihelpme/SpringJPA/blob/main/JPA_SHOP_UML.JPG)
 - Lib list
 - spring-boot-starter-web<br/>
     spring-web-mvc<br/>
