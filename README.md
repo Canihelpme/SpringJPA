@@ -2,7 +2,7 @@
 
 Springboot와 JPA를 사용한 실습 정리
 ![UML](https://github.com/Canihelpme/SpringJPA/blob/main/JPA_SHOP_UML.JPG)
-- Lib list
+## Lib list
 - spring-boot-starter-web<br/>
     spring-web-mvc<br/>
     spring-boot-starter-tomcat<br/>
